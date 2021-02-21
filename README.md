@@ -2,7 +2,7 @@ python版本为3.6.7\
 第一部分：各个文件介绍\
 1、bert文件夹:google官方bert的源代码\
 2、client文件夹：模型部署后给客户端调用的接口文件\
-3、data文件夹：模型训练数据集,放了少量的数据方便对战数据结构，实际训练数据大概13万条，大小50M左右的数据集\
+3、data文件夹：模型训练数据集,放了少量的数据方便对战数据结构，实际训练数据大概13万条，大小50M左右的数据集，一共10个类别\
 4、model_deploy_classify文件夹：模型训练完成后运行save_model_to_pb_mart.py生成的模型部署pb文件\
 5、output_model文件夹：运行run_classifier.py后存储训练完成的模型文件\
 6、roeberta_zh_L-12_H-768_A-12文件夹：google开源的中文预训练模型\
