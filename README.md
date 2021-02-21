@@ -88,5 +88,5 @@ docker run --name tfserving-bert \
         -p 8501:8501 \
         --mount type=bind,source=/home/mart/model_deploy_classify/versions,target=/models/versions \
         -e MODEL_NAME=versions \
-        -t tensorflow/serving &
+        -t tensorflow/serving &\
 3、部署成功后可以运行client文件夹的文件进行模型调用，默认的地址是本地部署地址，把IP改成服务器的IP即可直接调用，两种方式调用分别是grpc和http\
